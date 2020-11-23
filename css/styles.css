@@ -1,4 +1,23 @@
 body {
-  background-color: teal;
-  color: #fff;
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.logo {
+  color: #000000;
+}
+/* .list */
+ul {
+  list-style: none;
+}
+/*цвет основного текста #212121*/
+/* вторичный цвет #757575  */
+/* цвет логотипа #2196F3 и #000000 */
+/* акцент #2196F3*/
+/* белый #ffffff */
+/* фон #e5e5e5  и f5f4fa */
+
+/* ============ site-nav ============ */
+.site-nav a {
+  color: #212121;
 }
