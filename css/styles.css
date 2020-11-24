@@ -1,33 +1,41 @@
+:root {
+  /*цвет основного текста #757575*/
+  --primary-text-color: #757575;
+  /* вторичный цвет  #212121 */
+  --title-text-color: #212121;
+  /* акцент #2196F3*/
+  --accent-color: #2196f3;
+}
+
+/* цвет логотипа #2196F3 и #000000 */
+
+/* белый #ffffff */
+/* фон #e5e5e5  и f5f4fa */
+
 body {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .logo {
   color: #000000;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* .list */
 ul {
   list-style: none;
 }
-/*цвет основного текста #212121*/
-/* вторичный цвет #757575  */
-/* цвет логотипа #2196F3 и #000000 */
-/* акцент #2196F3*/
-/* белый #ffffff */
-/* фон #e5e5e5  и f5f4fa */
 
 /* ============ site-nav ============ */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* =========== hero ============== */
@@ -37,5 +45,5 @@ ul {
 /* =========== section =========== */
 
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
