@@ -5,29 +5,21 @@
   --title-text-color: #212121;
   /* акцент #2196F3*/
   --accent-color: #2196f3;
+  /* ==== белый цвет ======= */
+  --primary-white-color: #ffffff;
 }
-
-/* цвет логотипа #2196F3 и #000000 */
-
-/* белый #ffffff */
-/* фон #e5e5e5  и f5f4fa */
-
+/* ============ body ========== */
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
-
+/* =========logo========== */
 .logo {
   color: #000000;
 }
 .logo-web {
   color: var(--accent-color);
 }
-/* .list */
-ul {
-  list-style: none;
-}
-
 /* ============ site-nav ============ */
 .site-nav .link {
   color: var(--title-text-color);
@@ -38,12 +30,6 @@ ul {
   color: var(--accent-color);
 }
 
-/* =========== hero ============== */
-.hero-title {
-  color: #ffffff;
-}
-/* =========== section =========== */
-
-.section-title {
-  color: var(--title-text-color);
+.site-nav .link.current {
+  color: var(--accent-color);
 }

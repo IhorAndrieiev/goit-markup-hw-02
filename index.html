@@ -2,9 +2,16 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, 
+  initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link 
+  rel="stylesheet" 
+  href="./css/common.css" 
+  />
+  <link rel="stylesheet" 
+  href="./css/main.css"
+  />
 </head>
 
 <body class="page">
@@ -16,25 +23,32 @@
 
       <ul class="site-nav list">
         <li>
-          <a href="index.html" class="link">Студия</a>
+          <a href="./index.html" class="link current">
+            Студия</a>
         </li>
         <li>
-          <a href="portfolio.html" class="link">Портфолио</a>
+          <a href="./portfolio.html" class="link">
+            Портфолио</a>
         </li>
         <li>
           <a href="" class="link">Контакты</a>
         </li>
       </ul>
-      <!--контакты-->
+      
     </nav>
+<!--контакты-->
     <address>
       <ul class="list">
         <li>
           <!-- Ссылка на адрес электронной почты  -->
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <a href="mailto:info@devstudio.com">
+            info@devstudio.com</a>
+          </li>
         <li>
           <!-- Ссылка на телефонный номер -->
-          <a href="tel:+380961111111">+38 (096) 111-11-11</a></li>
+          <a href="tel:+380961111111">
+            +38 (096) 111-11-11</a>
+          </li>
       </ul>
     </address>
   </header> 
@@ -51,8 +65,8 @@
     <section class="section">
       <!--  заголовок особенности будет скрыт -->
       <h2 class="visually-hidden">особенности</h2>
-      <ul>
-        <li>
+      <ul class="features-list">
+        <li class="features-item">
           <h3 class="section-title">Внимание к деталям</h3>
           <p>
             Идейные соображения, 
@@ -60,7 +74,7 @@
             работы по формированию позиции.
           </p>
         </li>
-        <li>
+        <li class="features-item">
           <h3 class="section-title">Пунктуальность</h3>
           <p>
             Задача организации, 
@@ -68,7 +82,7 @@
             обучения кадров влечет за собой.
           </p>
         </li>
-        <li>
+        <li class="features-item">
           <h3 class="section-title">Планирование</h3>
           <p>
             Равным образом консультация 
@@ -76,11 +90,13 @@
             степени обуславливает.
           </p>
         </li>
-        <li>
+        <li class="features-item">
           <h3 class="section-title">Современные технологии</h3>
-          <p>Значимость этих проблем 
+          <p>
+            Значимость этих проблем 
             настолько очевидна, что 
-            реализация плановых заданий.</p>
+            реализация плановых заданий.
+          </p>
         </li>
       </ul>
     </section>
@@ -88,7 +104,7 @@
     <!--Примеры работ-->
     <section class="section">
       <h2 class="section-title">Чем мы занимаемся</h2>
-      <ul>
+      <ul class="work-list">
         <li>
 
             <img src="./images/box1.jpg" alt="работа с кодом" width="370" height="294">
