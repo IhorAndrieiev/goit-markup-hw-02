@@ -103,7 +103,8 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  /* color: #FFFFFF; */
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 /* =========== hero end ============== */
 .visually-hidden {
